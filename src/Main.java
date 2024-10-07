@@ -14,7 +14,7 @@ public class Main {
         for (int j : a) {
             sum += j;
         }
-        sum %= 100;
+        sum -= 100;
         int x;
         int p = 0;
         int flag = 0;
